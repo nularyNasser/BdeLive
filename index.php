@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>My Project Game</title>
-    </head>
-    <body>
-        Welcome World !
-        I'm Nasser.
-    </body>
-</html>
+<?php
+    require "include/include.inc.php";
+    start_page("Home page");
+?>
+
+<h1>Welcome !</h1>
+
+<?php
+    end_page();
+?>
