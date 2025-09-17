@@ -3,7 +3,7 @@
     start_page("Home page");
 ?>
 
-<h1>Welcome !</h1>
+<h1>Welcome on my web site !</h1>
 
 <?php
     end_page();
