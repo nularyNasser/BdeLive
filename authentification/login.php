@@ -1,4 +1,4 @@
-<php
+<?php
     require "../include/include.inc.php";
     start_page("Login");
 ?>
