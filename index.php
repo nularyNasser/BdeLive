@@ -4,6 +4,7 @@
 ?>
 
 <h1>Welcome on my web site !</h1>
+<a href="authentification/login.php">Login</a>
 
 <?php
     end_page();
