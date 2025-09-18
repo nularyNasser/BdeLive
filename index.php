@@ -4,6 +4,7 @@
 ?>
 
 <h1>Welcome on my web site !</h1>
+<h2>Test du changement de nom</h2>
 <a href="authentification/login.php">Login</a>
 
 <?php
