@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official website of BDE Inform'Aix - Computer Science BDE at Aix-en-Provence. Discover our events, student benefits and social networks.">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="logo" href="asset/img/logo.png">
+    <meta name="description" content="Site officiel du BDE Inform'Aix - BDE Informatique à Aix-en-Provence. Découvrez nos événements, avantages étudiants et réseaux sociaux.">
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="icon" href="../../public/asset/img/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <title>BDE Inform'Aix - Official Website</title>
+    <title>BDE Inform'Aix - Site Officiel</title>
 </head>
 <body>
     <header>
         <nav aria-label="Main navigation">
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="horaire.html">Horaire</a></li>
-                <li><a href="info_Bde.html">BDE Info</a></li>
+                <li><a href="../../app/views/home/index.php">Accueil</a></li>
+                <li><a href="../../app/views/home/horaire.html">Horaire</a></li>
+                <li><a href="../../app/views/home/info_Bde.html">BDE Info</a></li>
+                <li><a href="../../app/views/auth/login.php">Connexion</a></li>
+                <li><a href="../../app/views/auth/register.php">Inscription</a></li>
             </ul>
         </nav>
     </header>
@@ -36,13 +38,13 @@
                 </ul>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="asset/img/event1.png" alt="Premier événement" width="800" height="400" loading="lazy">
+                        <img class="d-block w-100" src="../../public/asset/img/event1.png" alt="Premier événement" width="800" height="400" loading="lazy">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="asset/img/event2.png" alt="Deuxième événement" width="800" height="400" loading="lazy">
+                        <img class="d-block w-100" src="../../public/asset/img/event2.png" alt="Deuxième événement" width="800" height="400" loading="lazy">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="asset/img/event3.png" alt="Troisième événement" width="800" height="400" loading="lazy">
+                        <img class="d-block w-100" src="../../public/asset/img/event3.png" alt="Troisième événement" width="800" height="400" loading="lazy">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -59,9 +61,9 @@
         <section class="social-media" aria-labelledby="social-title">
             <h2 id="social-title">Réseaux sociaux</h2>
             <ul>
-                <li><a href="#" aria-label="Follow us on Instagram"><img src="icon-instagram.png" alt="Instagram" width="32" height="32" loading="lazy"></a></li>
-                <li><a href="#" aria-label="Join our Discord server"><img src="icon-discord.png" alt="Discord" width="32" height="32" loading="lazy"></a></li>
-                <li><a href="#" aria-label="Follow us on TikTok"><img src="icon-tiktok.png" alt="TikTok" width="32" height="32" loading="lazy"></a></li>
+                <li><a href="#" aria-label="Follow us on Instagram"><img src="../../public/asset/img/icon-instagram.png" alt="Instagram" width="32" height="32" loading="lazy"></a></li>
+                <li><a href="#" aria-label="Join our Discord server"><img src="../../public/asset/img/icon-discord.png" alt="Discord" width="32" height="32" loading="lazy"></a></li>
+                <li><a href="#" aria-label="Follow us on TikTok"><img src="../../public/asset/img/icon-tiktok.png" alt="TikTok" width="32" height="32" loading="lazy"></a></li>
             </ul>
         </section>
     </main>
