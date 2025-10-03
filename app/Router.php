@@ -1,5 +1,5 @@
 <?php
 class Router {
-    BONJOUR
+    BONJOUR A TOUS
 }
 ?>
