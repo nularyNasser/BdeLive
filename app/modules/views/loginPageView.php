@@ -8,7 +8,8 @@
         <label for="email">Adresse e-mail</label>
         <input id="email" type="text" name="Adresse e-mail" placeholder="Entrez votre Adresse mail" required> <br>
         <label for="password">Password</label>
-        <input id="password" type="text" name="Password" placeholder="Entrez votre mot de passe" required>
+        <input id="password" type="text" name="Password" placeholder="Entrez votre mot de passe" required> <br>
+        <input type="submit" value="Se connecter" name="ok">
     </form>
     <br>
     <p><a href="index.php?page=home"> <-- Retour à l'accueil</a></p>
