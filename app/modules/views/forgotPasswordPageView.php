@@ -13,7 +13,7 @@
             <button type="submit">Envoyer le lien</button>
         </form>
 
-        <a href="index.php?page=login"> <-- Retour page de connexion</a>
+        <a href="index.php?page=login"> <--- Retour page de connexion</a>
     </div>
 
 

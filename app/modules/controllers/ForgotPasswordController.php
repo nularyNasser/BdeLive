@@ -9,4 +9,4 @@ class ForgotPasswordController {
         require_once __DIR__ . '/../views/' . $viewName . '.php';
     }
 }
-?>
+
