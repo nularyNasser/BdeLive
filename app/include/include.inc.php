@@ -29,8 +29,7 @@
             <ul>
 
                 <li><a href="index.php?page=home">Accueil</a></li>
-                <li><a href="#">Horaire</a></li>
-                <li><a href="#">BDE Info</a></li>
+
                 <li><a href="index.php?page=login">Connexion</a></li>
                 <li><a href="index.php?page=register">Inscription</a></li>
             </ul>
