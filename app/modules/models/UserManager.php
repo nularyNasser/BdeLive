@@ -122,7 +122,6 @@ class UserManager
         }
     }
 
-
     public function updateUser(int $utilisateurId, string $nom, string $prenom, string $classeAnnee, string $email): bool
     {
         try {
